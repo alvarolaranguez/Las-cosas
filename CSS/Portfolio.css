@@ -1,0 +1,129 @@
+@font-face {
+    src: url(../Fonts/Noto_Serif/NotoSerif-Regular.ttf);
+    font-family: "Noto";  
+}
+
+@font-face {
+    src: url(../Fonts/Open_Sans/OpenSans-Regular.ttf);
+    font-family: "Open";  
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: "Open";
+    font-size: 18px;
+    margin-top: 48px;
+    margin-bottom:120px;
+}
+
+.nav-header{
+    width: 331px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-left: 80px;
+}
+
+.name-header{
+    margin-right: 80px;
+}
+
+body{
+    background-color: #ECE8E7;
+    font-family: "Open";
+    color: #1D1919; 
+}
+
+.main{
+    display: flex;
+    font-family: "Noto";
+    font-size: 48px;
+    margin-left: 80px;
+    margin-right: 80px;
+    justify-content: space-between;
+}
+
+h1{
+    width: 630px;
+    height: 380px;
+    line-height: 65px !important;
+}
+
+.card-title{
+    font-family: "Noto";
+    font-size: 36px;
+}
+
+.mainimage{
+    width: 630px;
+    height: 380px;
+}
+
+.projects{
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 140px;
+}
+
+hr{
+    background-color: #1D1919;
+    height: 2px;
+}
+
+.project{
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+}
+
+.clasification{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 16px;
+    font-family: "Open";
+}
+
+.project-description{
+    font-family: "Open";
+    font-size: 24px;
+    width: 297px;
+    line-height: 33px;
+    margin-top: 8px;
+}
+
+.vegand{
+    width: 147px;
+    height: 64px;
+}
+
+.mobile-screen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: darkgreen;
+    height: 100vh;
+}
+
+@media only screen and (max-width: 414px) {
+    .desktop-screen{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 415px) {
+    .desktop-screen{
+        display: block;
+    }
+
+    .mobile-screen{
+        display: none;
+    }
+}
+
